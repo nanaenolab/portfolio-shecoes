@@ -1,6 +1,7 @@
 :root {
   --branding-color:#6c63ff;
   --secondary-color:rgb(31, 31, 36);
+  --third-color: white;
   --heading-fontfamily:raleway, system-ui;
   --default-fontfamily:"Poppins",sans-serif;
 }
@@ -14,11 +15,22 @@ body {
 h1 {
   font-size: 96px;
   font-family: var(--heading-fontfamily);
+  line-height: 1.5;
+  
+}
+h2 {
+  font-size: 64px;
+}
+p {
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
 }
 
 .hero {
   text-align: center;
-  color: white;
+  color: var(--third-color);
    background-color:var(--secondary-color);
    padding: 160px 20px;
 
@@ -28,12 +40,20 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+  color: aliceblue;
 }
+
+
 
 .hero h2 {
   font-size: 24px;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.4;
+}
+.project3d {
+  color: var(--secondary-color);
+  font-weight: 500;
+
 }
 
 .btn-branding {
@@ -42,4 +62,39 @@ h1 {
   border-radius: 4px;
   line-height: 27px;
   padding: 15px 30px;
+  font-size: 18px;
+}
+.btn-branding-outline {
+  background-color: var(--third-color);
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+  font-size: 44px;
+}
+.hero {
+
+   padding: 80px 10px;
+
+}
+
+  .project-description{
+    padding: 0;
+    text-align: center;
+  }
+
+  
 }
