@@ -57,15 +57,29 @@ p {
   margin: 30px;
 }
 
-.content-container h1 {
+.content h1 {
   color: var(--secondary-color);
   font-size: 64px;
   line-height: 80px;
 }
-.content-container h2 {
+.content h2 {
   color: var(--secondary-color);
   font-size: 18px;
   font-family: var(--default-fontfamily);
+}
+.content h3 {
+   color: var(--secondary-color);
+  font-size: 24px;
+  font-family: var(--default-fontfamily);
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content p {
+
+   color: var(--secondary-color);
+  font-size: 14px;
+  margin: 0;
 }
 .project3d {
   color: var(--secondary-color);
@@ -119,7 +133,7 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
