@@ -25,6 +25,10 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+  color: var(--secondary-color);
+}
 p {
   color: var(--secondary-color);
   font-size: 16px;
@@ -136,8 +140,55 @@ nav li:active a{
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding-footer {
+  background-color: var(--branding-color);
+  color: #e5e1fa;
+  border-radius: 4px;
+  line-height: 27px;
+  padding: 15px 30px;
+  font-size: 18px;
+}
+.btn-branding-footer:hover {
+  background-color: var(--branding-color);
+  color: var(--secondary-color);
+}
 .project-description {
   padding: 120px 60px;
+}
+
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: #e5e1fa;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: #e5e1fa;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
@@ -148,6 +199,10 @@ nav li:active a{
   h2 {
   font-size: 44px;
 }
+h4 {
+  font-size: 26px;
+}
+
 .hero {
 
    padding: 80px 10px;
@@ -162,6 +217,8 @@ nav li:active a{
     text-align: center;
     padding: 0;
   }
-
+footer .contact-box {
+  padding: 30px;
+}
   
 }
