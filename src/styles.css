@@ -40,7 +40,7 @@ p {
   text-align: center;
   color: var(--third-color);
    background-color:var(--secondary-color);
-   padding: 160px 20px;
+   padding: 80px 20px;
 
 }
 
@@ -79,11 +79,11 @@ nav a {
 }
 
 nav a:hover,
-nav li:active a{
+nav li.active a{
   color:var(--branding-color);
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 30px;
